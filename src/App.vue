@@ -1,19 +1,24 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <div id="header"></div>
+    <div id="main-container">
+      <h1>Todos</h1>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Search from "./components/search.vue";
+import Todo from "./components/todo";
+import todoAdd from "./components/todoAdd.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Search,
+    Todo
+  },
+};
 </script>
 
 <style>
