@@ -2,7 +2,7 @@
   <div>
     <div id="header"></div>
     <div id="main-container">
-      <h1>Todos</h1>
+      <h2>Todos</h2>
     </div>
   </div>
 </template>
